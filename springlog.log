@@ -1,0 +1,358 @@
+"2021-12-09 17:03:30 [main] INFO  com.Covid.CovidReportApplication -Starting CovidReportApplication using Java 17 on ISHAIK-L-2438 with PID 7612 (C:\Users\ishaik\Downloads\workspace\CovidReport\target\classes started by ishaik in C:\Users\ishaik\Downloads\workspace\CovidReport)
+""2021-12-09 17:03:30 [main] DEBUG com.Covid.CovidReportApplication -Running with Spring Boot v2.6.1, Spring v5.3.13
+""2021-12-09 17:03:30 [main] INFO  com.Covid.CovidReportApplication -No active profile set, falling back to default profiles: default
+""2021-12-09 17:03:31 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2021-12-09 17:03:31 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interfaces.
+""2021-12-09 17:03:31 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+""2021-12-09 17:03:31 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+""2021-12-09 17:03:31 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.55]
+""2021-12-09 17:03:31 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+""2021-12-09 17:03:31 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1091 ms
+""2021-12-09 17:03:31 [main] INFO  o.h.jpa.internal.util.LogHelper -HHH000204: Processing PersistenceUnitInfo [name: default]
+""2021-12-09 17:03:31 [main] INFO  org.hibernate.Version -HHH000412: Hibernate ORM core version 5.6.1.Final
+""2021-12-09 17:03:32 [main] INFO  o.h.annotations.common.Version -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2021-12-09 17:03:32 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+""2021-12-09 17:03:32 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+""2021-12-09 17:03:32 [main] INFO  org.hibernate.dialect.Dialect -HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+""2021-12-09 17:03:32 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2021-12-09 17:03:32 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2021-12-09 17:03:33 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2021-12-09 17:03:33 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path ''
+""2021-12-09 17:03:33 [main] INFO  com.Covid.CovidReportApplication -Started CovidReportApplication in 3.554 seconds (JVM running for 4.293)
+""2021-12-09 17:03:58 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2021-12-09 17:03:58 [http-nio-8080-exec-1] DEBUG com.Covid.CovidReportApplication -Request {}
+""2021-12-09 17:03:58 [http-nio-8080-exec-1] DEBUG com.Covid.CovidReportApplication -Response [com.Covid.model.Covid@25d0bcaa, com.Covid.model.Covid@4bd46f9f, com.Covid.model.Covid@1b7875ec, com.Covid.model.Covid@4152defb, com.Covid.model.Covid@4d632440, com.Covid.model.Covid@25a312e4, com.Covid.model.Covid@7d2cd4a9, com.Covid.model.Covid@2ade78f1, com.Covid.model.Covid@7ecb18ce, com.Covid.model.Covid@43c211c1, com.Covid.model.Covid@58500c8c, com.Covid.model.Covid@190ee87, com.Covid.model.Covid@27bb9b13]
+""2021-12-09 17:03:58 [http-nio-8080-exec-2] DEBUG com.Covid.CovidReportApplication -Request {}
+""2021-12-09 17:03:58 [http-nio-8080-exec-2] DEBUG com.Covid.CovidReportApplication -Response [com.Covid.model.Covid@5dc9f703, com.Covid.model.Covid@2f858350, com.Covid.model.Covid@3de6084c, com.Covid.model.Covid@2b3edfab, com.Covid.model.Covid@379d9107, com.Covid.model.Covid@34810ba7, com.Covid.model.Covid@39a8d113, com.Covid.model.Covid@64b6920a, com.Covid.model.Covid@3f783232, com.Covid.model.Covid@318da49, com.Covid.model.Covid@7c47a370, com.Covid.model.Covid@2c315830, com.Covid.model.Covid@52260626]
+""2021-12-09 17:03:58 [http-nio-8080-exec-3] DEBUG com.Covid.CovidReportApplication -Request {}
+""2021-12-09 17:03:58 [http-nio-8080-exec-3] DEBUG com.Covid.CovidReportApplication -Response [com.Covid.model.Covid@438bea56, com.Covid.model.Covid@47827823, com.Covid.model.Covid@72824d36, com.Covid.model.Covid@3f6181f9, com.Covid.model.Covid@23a41519, com.Covid.model.Covid@77b3222e, com.Covid.model.Covid@17b82a13, com.Covid.model.Covid@24650f54, com.Covid.model.Covid@27eaca1c, com.Covid.model.Covid@49263e9d, com.Covid.model.Covid@1f186d18, com.Covid.model.Covid@138bce00, com.Covid.model.Covid@62405c47]
+""2021-12-09 17:03:58 [http-nio-8080-exec-4] DEBUG com.Covid.CovidReportApplication -Request {}
+""2021-12-09 17:03:58 [http-nio-8080-exec-4] DEBUG com.Covid.CovidReportApplication -Response [com.Covid.model.Covid@5d8bcb8e, com.Covid.model.Covid@468d28d1, com.Covid.model.Covid@6c1cf2dc, com.Covid.model.Covid@3ef04f2a, com.Covid.model.Covid@3da434c1, com.Covid.model.Covid@12405804, com.Covid.model.Covid@1941c282, com.Covid.model.Covid@25f4479f, com.Covid.model.Covid@39ea6ddc, com.Covid.model.Covid@297a829d, com.Covid.model.Covid@3eb810e2, com.Covid.model.Covid@39776015, com.Covid.model.Covid@53196e6a]
+""2021-12-09 17:03:59 [http-nio-8080-exec-5] DEBUG com.Covid.CovidReportApplication -Request {}
+""2021-12-09 17:03:59 [http-nio-8080-exec-5] DEBUG com.Covid.CovidReportApplication -Response [com.Covid.model.Covid@2dc095f1, com.Covid.model.Covid@5344cf27, com.Covid.model.Covid@7c3997c2, com.Covid.model.Covid@144e3b03, com.Covid.model.Covid@3d084b66, com.Covid.model.Covid@48408617, com.Covid.model.Covid@78778f5a, com.Covid.model.Covid@1d842574, com.Covid.model.Covid@62a81ed9, com.Covid.model.Covid@2e944ca5, com.Covid.model.Covid@6add0b72, com.Covid.model.Covid@56ce3cd8, com.Covid.model.Covid@7432be0e]
+""2021-12-09 17:03:59 [http-nio-8080-exec-6] DEBUG com.Covid.CovidReportApplication -Request {}
+""2021-12-09 17:03:59 [http-nio-8080-exec-6] DEBUG com.Covid.CovidReportApplication -Response [com.Covid.model.Covid@759ed494, com.Covid.model.Covid@6863b39, com.Covid.model.Covid@2ac7eb07, com.Covid.model.Covid@7f8bc4e3, com.Covid.model.Covid@7cb295f2, com.Covid.model.Covid@4bda26ae, com.Covid.model.Covid@5ed07301, com.Covid.model.Covid@7fdd08e4, com.Covid.model.Covid@17a80fe8, com.Covid.model.Covid@d5da4e5, com.Covid.model.Covid@50c88634, com.Covid.model.Covid@47453ee1, com.Covid.model.Covid@1045aeae]
+""2021-12-09 17:03:59 [http-nio-8080-exec-7] DEBUG com.Covid.CovidReportApplication -Request {}
+""2021-12-09 17:03:59 [http-nio-8080-exec-7] DEBUG com.Covid.CovidReportApplication -Response [com.Covid.model.Covid@27d112eb, com.Covid.model.Covid@10903367, com.Covid.model.Covid@16bc933d, com.Covid.model.Covid@6817ec07, com.Covid.model.Covid@47feeda4, com.Covid.model.Covid@56e4f537, com.Covid.model.Covid@24b3b1ad, com.Covid.model.Covid@731306e8, com.Covid.model.Covid@43b056e3, com.Covid.model.Covid@320c5eef, com.Covid.model.Covid@b0bafda, com.Covid.model.Covid@60c4dc15, com.Covid.model.Covid@210299a0]
+""2021-12-09 17:03:59 [http-nio-8080-exec-8] DEBUG com.Covid.CovidReportApplication -Request {}
+""2021-12-09 17:03:59 [http-nio-8080-exec-8] DEBUG com.Covid.CovidReportApplication -Response [com.Covid.model.Covid@30986f77, com.Covid.model.Covid@1521fa44, com.Covid.model.Covid@243cf702, com.Covid.model.Covid@44e046ed, com.Covid.model.Covid@37f06ad1, com.Covid.model.Covid@2d1945b1, com.Covid.model.Covid@6e5e23f7, com.Covid.model.Covid@284fc7ff, com.Covid.model.Covid@1c5d86c5, com.Covid.model.Covid@7b8e6c32, com.Covid.model.Covid@64d0b92f, com.Covid.model.Covid@32f6fa75, com.Covid.model.Covid@42ed3940]
+""2021-12-09 17:03:59 [http-nio-8080-exec-9] DEBUG com.Covid.CovidReportApplication -Request {}
+""2021-12-09 17:03:59 [http-nio-8080-exec-9] DEBUG com.Covid.CovidReportApplication -Response [com.Covid.model.Covid@5a9f2ea2, com.Covid.model.Covid@61036244, com.Covid.model.Covid@6b0f1411, com.Covid.model.Covid@1979065e, com.Covid.model.Covid@3ab0d1ed, com.Covid.model.Covid@405b85bd, com.Covid.model.Covid@53e7ae3b, com.Covid.model.Covid@27d09ef, com.Covid.model.Covid@3efe8ff4, com.Covid.model.Covid@229483fb, com.Covid.model.Covid@4cec77e4, com.Covid.model.Covid@26343de7, com.Covid.model.Covid@6cff87fa]
+""2021-12-09 17:04:00 [http-nio-8080-exec-10] DEBUG com.Covid.CovidReportApplication -Request {}
+""2021-12-09 17:04:00 [http-nio-8080-exec-10] DEBUG com.Covid.CovidReportApplication -Response [com.Covid.model.Covid@657ee606, com.Covid.model.Covid@6f48b95b, com.Covid.model.Covid@5451828b, com.Covid.model.Covid@178d8368, com.Covid.model.Covid@5511949, com.Covid.model.Covid@2f79ead9, com.Covid.model.Covid@77647067, com.Covid.model.Covid@c892b20, com.Covid.model.Covid@11fe0a9, com.Covid.model.Covid@61d0ed71, com.Covid.model.Covid@35635e64, com.Covid.model.Covid@70f6b3c3, com.Covid.model.Covid@e121fdc]
+""2021-12-09 17:04:00 [http-nio-8080-exec-1] DEBUG com.Covid.CovidReportApplication -Request {}
+""2021-12-09 17:04:00 [http-nio-8080-exec-1] DEBUG com.Covid.CovidReportApplication -Response [com.Covid.model.Covid@70d8c7b3, com.Covid.model.Covid@4c3b329, com.Covid.model.Covid@3645b3e2, com.Covid.model.Covid@6cca1c7e, com.Covid.model.Covid@5a19ab0b, com.Covid.model.Covid@435a019a, com.Covid.model.Covid@581b70b0, com.Covid.model.Covid@640eae21, com.Covid.model.Covid@73d80058, com.Covid.model.Covid@601d8968, com.Covid.model.Covid@6380fb2b, com.Covid.model.Covid@726e3edc, com.Covid.model.Covid@41072a09]
+""2021-12-09 17:04:00 [http-nio-8080-exec-2] DEBUG com.Covid.CovidReportApplication -Request {}
+""2021-12-09 17:04:00 [http-nio-8080-exec-2] DEBUG com.Covid.CovidReportApplication -Response [com.Covid.model.Covid@19d98bef, com.Covid.model.Covid@3e7c8235, com.Covid.model.Covid@3c1fb1e8, com.Covid.model.Covid@7c985a74, com.Covid.model.Covid@294b20fb, com.Covid.model.Covid@73fc62cd, com.Covid.model.Covid@32ad1dab, com.Covid.model.Covid@c58aa70, com.Covid.model.Covid@7c640ff8, com.Covid.model.Covid@6c9ef0b3, com.Covid.model.Covid@3684e8ce, com.Covid.model.Covid@7fc6df44, com.Covid.model.Covid@2301148b]
+""2021-12-09 17:04:00 [http-nio-8080-exec-3] DEBUG com.Covid.CovidReportApplication -Request {}
+""2021-12-09 17:04:00 [http-nio-8080-exec-3] DEBUG com.Covid.CovidReportApplication -Response [com.Covid.model.Covid@51533c81, com.Covid.model.Covid@5f109c76, com.Covid.model.Covid@27dd7aab, com.Covid.model.Covid@16d30828, com.Covid.model.Covid@5eac9947, com.Covid.model.Covid@5044dc8, com.Covid.model.Covid@49c067e1, com.Covid.model.Covid@475ca4b9, com.Covid.model.Covid@7d007bb4, com.Covid.model.Covid@5a4d03d1, com.Covid.model.Covid@10788816, com.Covid.model.Covid@32239fcc, com.Covid.model.Covid@4c009fe7]
+""2021-12-09 17:04:00 [http-nio-8080-exec-4] DEBUG com.Covid.CovidReportApplication -Request {}
+""2021-12-09 17:04:00 [http-nio-8080-exec-4] DEBUG com.Covid.CovidReportApplication -Response [com.Covid.model.Covid@4a4ca10a, com.Covid.model.Covid@373cb53d, com.Covid.model.Covid@3d2b1cb5, com.Covid.model.Covid@18487a2e, com.Covid.model.Covid@37a3ccdc, com.Covid.model.Covid@65e41248, com.Covid.model.Covid@4f64f5, com.Covid.model.Covid@5b8df7d8, com.Covid.model.Covid@72e11559, com.Covid.model.Covid@37d22f1f, com.Covid.model.Covid@4cc19ddc, com.Covid.model.Covid@78c680ab, com.Covid.model.Covid@2770937]
+""2021-12-09 17:04:01 [http-nio-8080-exec-5] DEBUG com.Covid.CovidReportApplication -Request {}
+""2021-12-09 17:04:01 [http-nio-8080-exec-5] DEBUG com.Covid.CovidReportApplication -Response [com.Covid.model.Covid@3ce7ebbc, com.Covid.model.Covid@3d03e414, com.Covid.model.Covid@1e56eaf2, com.Covid.model.Covid@640e07b0, com.Covid.model.Covid@6737ba86, com.Covid.model.Covid@4536c130, com.Covid.model.Covid@6c1ea21e, com.Covid.model.Covid@78390baa, com.Covid.model.Covid@22807da1, com.Covid.model.Covid@51cc1780, com.Covid.model.Covid@48db51f5, com.Covid.model.Covid@788f771f, com.Covid.model.Covid@594370da]
+""2021-12-09 17:04:01 [http-nio-8080-exec-6] DEBUG com.Covid.CovidReportApplication -Request {}
+""2021-12-09 17:04:01 [http-nio-8080-exec-6] DEBUG com.Covid.CovidReportApplication -Response [com.Covid.model.Covid@8f10e84, com.Covid.model.Covid@524ef1a9, com.Covid.model.Covid@12163078, com.Covid.model.Covid@6294ddf6, com.Covid.model.Covid@62916a0e, com.Covid.model.Covid@47f71c4c, com.Covid.model.Covid@6441613a, com.Covid.model.Covid@207e6b29, com.Covid.model.Covid@4956a432, com.Covid.model.Covid@363cc428, com.Covid.model.Covid@599b3b64, com.Covid.model.Covid@aef245d, com.Covid.model.Covid@76647606]
+""2021-12-09 17:04:01 [http-nio-8080-exec-7] DEBUG com.Covid.CovidReportApplication -Request {}
+""2021-12-09 17:04:01 [http-nio-8080-exec-7] DEBUG com.Covid.CovidReportApplication -Response [com.Covid.model.Covid@54925a5d, com.Covid.model.Covid@6f02e39e, com.Covid.model.Covid@1adbdeab, com.Covid.model.Covid@3b107f71, com.Covid.model.Covid@7d968afc, com.Covid.model.Covid@5f098c3, com.Covid.model.Covid@419a2050, com.Covid.model.Covid@79c924e5, com.Covid.model.Covid@3041804a, com.Covid.model.Covid@31763001, com.Covid.model.Covid@21fe0edf, com.Covid.model.Covid@1120e809, com.Covid.model.Covid@2d5f79b7]
+""2021-12-09 17:04:01 [http-nio-8080-exec-8] DEBUG com.Covid.CovidReportApplication -Request {}
+""2021-12-09 17:04:01 [http-nio-8080-exec-8] DEBUG com.Covid.CovidReportApplication -Response [com.Covid.model.Covid@220c55f0, com.Covid.model.Covid@186d332d, com.Covid.model.Covid@6996108c, com.Covid.model.Covid@3e7aaa66, com.Covid.model.Covid@7e99cb8c, com.Covid.model.Covid@f9c7b29, com.Covid.model.Covid@56571826, com.Covid.model.Covid@3d15b110, com.Covid.model.Covid@de0c895, com.Covid.model.Covid@6149af33, com.Covid.model.Covid@fb11d14, com.Covid.model.Covid@1f3cb0c3, com.Covid.model.Covid@141377d1]
+""2021-12-09 17:04:01 [http-nio-8080-exec-9] DEBUG com.Covid.CovidReportApplication -Request {}
+""2021-12-09 17:04:01 [http-nio-8080-exec-9] DEBUG com.Covid.CovidReportApplication -Response [com.Covid.model.Covid@52021a8c, com.Covid.model.Covid@2a5e466b, com.Covid.model.Covid@1d7e578b, com.Covid.model.Covid@4b516012, com.Covid.model.Covid@945c58e, com.Covid.model.Covid@5170a7d3, com.Covid.model.Covid@3e5d7079, com.Covid.model.Covid@7eccd650, com.Covid.model.Covid@590215b2, com.Covid.model.Covid@d186f7e, com.Covid.model.Covid@5813081c, com.Covid.model.Covid@40f53b18, com.Covid.model.Covid@9131931]
+""2021-12-09 17:04:02 [http-nio-8080-exec-10] DEBUG com.Covid.CovidReportApplication -Request {}
+""2021-12-09 17:04:02 [http-nio-8080-exec-10] DEBUG com.Covid.CovidReportApplication -Response [com.Covid.model.Covid@1caffbe7, com.Covid.model.Covid@a76a7e8, com.Covid.model.Covid@4cd825c4, com.Covid.model.Covid@21ac35c0, com.Covid.model.Covid@42bf82d1, com.Covid.model.Covid@7d492489, com.Covid.model.Covid@7032c8e1, com.Covid.model.Covid@3070f112, com.Covid.model.Covid@e6754c7, com.Covid.model.Covid@3abe44ee, com.Covid.model.Covid@5c2df698, com.Covid.model.Covid@6b62746e, com.Covid.model.Covid@5f17d4a9]
+""2021-12-09 17:04:02 [http-nio-8080-exec-1] DEBUG com.Covid.CovidReportApplication -Request {}
+""2021-12-09 17:04:02 [http-nio-8080-exec-1] DEBUG com.Covid.CovidReportApplication -Response [com.Covid.model.Covid@52d43db1, com.Covid.model.Covid@72c5fb8e, com.Covid.model.Covid@597b666b, com.Covid.model.Covid@2b9ecf74, com.Covid.model.Covid@58d44603, com.Covid.model.Covid@510df1c, com.Covid.model.Covid@75ab9eb, com.Covid.model.Covid@5a62231b, com.Covid.model.Covid@207c920a, com.Covid.model.Covid@23975126, com.Covid.model.Covid@7150315e, com.Covid.model.Covid@3a61ae94, com.Covid.model.Covid@7ec99710]
+""2021-12-09 17:04:02 [http-nio-8080-exec-2] DEBUG com.Covid.CovidReportApplication -Request {}
+""2021-12-09 17:04:02 [http-nio-8080-exec-2] DEBUG com.Covid.CovidReportApplication -Response [com.Covid.model.Covid@4b290d24, com.Covid.model.Covid@7802ff92, com.Covid.model.Covid@409b5ffa, com.Covid.model.Covid@1f24e74e, com.Covid.model.Covid@1c6789a3, com.Covid.model.Covid@73f61bd2, com.Covid.model.Covid@6908fed9, com.Covid.model.Covid@512e6a21, com.Covid.model.Covid@7124cb36, com.Covid.model.Covid@32cf764b, com.Covid.model.Covid@1c9fb8fd, com.Covid.model.Covid@3e42b62d, com.Covid.model.Covid@69e8b7a8]
+""2021-12-09 17:04:02 [http-nio-8080-exec-3] DEBUG com.Covid.CovidReportApplication -Request {}
+""2021-12-09 17:04:02 [http-nio-8080-exec-3] DEBUG com.Covid.CovidReportApplication -Response [com.Covid.model.Covid@aede31b, com.Covid.model.Covid@5e1f5537, com.Covid.model.Covid@571cf043, com.Covid.model.Covid@4be70313, com.Covid.model.Covid@2ef7c44f, com.Covid.model.Covid@a658a4b, com.Covid.model.Covid@3a4bedac, com.Covid.model.Covid@49c78e6d, com.Covid.model.Covid@5902eea6, com.Covid.model.Covid@7f93001f, com.Covid.model.Covid@1ad0b4cc, com.Covid.model.Covid@6f11f51d, com.Covid.model.Covid@21284187]
+""2021-12-09 17:08:18 [RMI TCP Connection(8)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -Application shutdown requested.
+""2021-12-09 17:08:18 [RMI TCP Connection(8)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Closing JPA EntityManagerFactory for persistence unit 'default'
+""2021-12-09 17:08:18 [RMI TCP Connection(8)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+""2021-12-09 17:08:18 [RMI TCP Connection(8)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+""2021-12-09 17:08:21 [main] INFO  com.Covid.CovidReportApplication -Starting CovidReportApplication using Java 17 on ISHAIK-L-2438 with PID 8732 (C:\Users\ishaik\Downloads\workspace\CovidReport\target\classes started by ishaik in C:\Users\ishaik\Downloads\workspace\CovidReport)
+""2021-12-09 17:08:21 [main] DEBUG com.Covid.CovidReportApplication -Running with Spring Boot v2.6.1, Spring v5.3.13
+""2021-12-09 17:08:21 [main] INFO  com.Covid.CovidReportApplication -No active profile set, falling back to default profiles: default
+""2021-12-09 17:08:22 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2021-12-09 17:08:22 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interfaces.
+""2021-12-09 17:08:23 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+""2021-12-09 17:08:23 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+""2021-12-09 17:08:23 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.55]
+""2021-12-09 17:08:23 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+""2021-12-09 17:08:23 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1272 ms
+""2021-12-09 17:08:23 [main] INFO  o.h.jpa.internal.util.LogHelper -HHH000204: Processing PersistenceUnitInfo [name: default]
+""2021-12-09 17:08:23 [main] INFO  org.hibernate.Version -HHH000412: Hibernate ORM core version 5.6.1.Final
+""2021-12-09 17:08:23 [main] INFO  o.h.annotations.common.Version -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2021-12-09 17:08:23 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+""2021-12-09 17:08:23 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+""2021-12-09 17:08:23 [main] INFO  org.hibernate.dialect.Dialect -HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+""2021-12-09 17:08:24 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2021-12-09 17:08:24 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2021-12-09 17:08:24 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2021-12-09 17:08:25 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path ''
+""2021-12-09 17:08:25 [main] INFO  com.Covid.CovidReportApplication -Started CovidReportApplication in 3.716 seconds (JVM running for 4.458)
+""2021-12-09 17:08:41 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2021-12-09 17:08:41 [http-nio-8080-exec-1] DEBUG com.Covid.CovidReportApplication -Request :
+""2021-12-09 17:08:41 [http-nio-8080-exec-1] INFO  com.Covid.CovidReportApplication -Request->
+""2021-12-09 17:08:41 [http-nio-8080-exec-1] DEBUG com.Covid.CovidReportApplication -Response :
+""2021-12-09 17:08:41 [http-nio-8080-exec-2] DEBUG com.Covid.CovidReportApplication -Request :
+""2021-12-09 17:08:41 [http-nio-8080-exec-2] INFO  com.Covid.CovidReportApplication -Request->
+""2021-12-09 17:08:41 [http-nio-8080-exec-2] DEBUG com.Covid.CovidReportApplication -Response :
+""2021-12-09 17:08:41 [http-nio-8080-exec-3] DEBUG com.Covid.CovidReportApplication -Request :
+""2021-12-09 17:08:41 [http-nio-8080-exec-3] INFO  com.Covid.CovidReportApplication -Request->
+""2021-12-09 17:08:41 [http-nio-8080-exec-3] DEBUG com.Covid.CovidReportApplication -Response :
+""2021-12-09 17:08:42 [http-nio-8080-exec-4] DEBUG com.Covid.CovidReportApplication -Request :
+""2021-12-09 17:08:42 [http-nio-8080-exec-4] INFO  com.Covid.CovidReportApplication -Request->
+""2021-12-09 17:08:42 [http-nio-8080-exec-4] DEBUG com.Covid.CovidReportApplication -Response :
+""2021-12-09 17:22:41 [RMI TCP Connection(18)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -Application shutdown requested.
+""2021-12-09 17:22:42 [RMI TCP Connection(18)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Closing JPA EntityManagerFactory for persistence unit 'default'
+""2021-12-09 17:22:42 [RMI TCP Connection(18)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+""2021-12-09 17:22:42 [RMI TCP Connection(18)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+""2021-12-09 17:22:45 [main] INFO  com.Covid.CovidReportApplication -Starting CovidReportApplication using Java 17 on ISHAIK-L-2438 with PID 2844 (C:\Users\ishaik\Downloads\workspace\CovidReport\target\classes started by ishaik in C:\Users\ishaik\Downloads\workspace\CovidReport)
+""2021-12-09 17:22:45 [main] DEBUG com.Covid.CovidReportApplication -Running with Spring Boot v2.6.1, Spring v5.3.13
+""2021-12-09 17:22:45 [main] INFO  com.Covid.CovidReportApplication -No active profile set, falling back to default profiles: default
+""2021-12-09 17:22:45 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2021-12-09 17:22:45 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interfaces.
+""2021-12-09 17:22:46 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+""2021-12-09 17:22:46 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+""2021-12-09 17:22:46 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.55]
+""2021-12-09 17:22:46 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+""2021-12-09 17:22:46 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1243 ms
+""2021-12-09 17:22:46 [main] INFO  o.h.jpa.internal.util.LogHelper -HHH000204: Processing PersistenceUnitInfo [name: default]
+""2021-12-09 17:22:46 [main] INFO  org.hibernate.Version -HHH000412: Hibernate ORM core version 5.6.1.Final
+""2021-12-09 17:22:47 [main] INFO  o.h.annotations.common.Version -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2021-12-09 17:22:47 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+""2021-12-09 17:22:47 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+""2021-12-09 17:22:47 [main] INFO  org.hibernate.dialect.Dialect -HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+""2021-12-09 17:22:48 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2021-12-09 17:22:48 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2021-12-09 17:22:48 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2021-12-09 17:22:49 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path ''
+""2021-12-09 17:22:49 [main] INFO  com.Covid.CovidReportApplication -Started CovidReportApplication in 4.447 seconds (JVM running for 5.175)
+""2021-12-09 17:22:56 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2021-12-09 17:22:56 [http-nio-8080-exec-1] DEBUG com.Covid.CovidReportApplication -Request :
+""2021-12-09 17:22:56 [http-nio-8080-exec-1] DEBUG com.Covid.CovidReportApplication -Response :
+""2021-12-09 17:23:00 [http-nio-8080-exec-2] DEBUG com.Covid.CovidReportApplication -Request by id1
+""2021-12-09 17:23:00 [http-nio-8080-exec-2] DEBUG com.Covid.CovidReportApplication -Response 
+""2021-12-09 17:23:04 [http-nio-8080-exec-3] DEBUG com.Covid.CovidReportApplication -Request by id2
+""2021-12-09 17:23:04 [http-nio-8080-exec-3] DEBUG com.Covid.CovidReportApplication -Response 
+""2021-12-09 17:23:07 [http-nio-8080-exec-4] DEBUG com.Covid.CovidReportApplication -Request by id3
+""2021-12-09 17:23:07 [http-nio-8080-exec-4] DEBUG com.Covid.CovidReportApplication -Response 
+""2021-12-09 17:24:26 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -Application shutdown requested.
+""2021-12-09 17:24:26 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Closing JPA EntityManagerFactory for persistence unit 'default'
+""2021-12-09 17:24:26 [RMI TCP Connection(5)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+""2021-12-09 17:24:26 [RMI TCP Connection(5)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+"{yyyy-MM-dd HH:mm:ss} [main] INFO  com.Covid.CovidReportApplication -Starting CovidReportApplication using Java 17 on ISHAIK-L-2438 with PID 13512 (C:\Users\ishaik\Downloads\workspace\CovidReport\target\classes started by ishaik in C:\Users\ishaik\Downloads\workspace\CovidReport)
+{yyyy-MM-dd HH:mm:ss} [main] DEBUG com.Covid.CovidReportApplication -Running with Spring Boot v2.6.1, Spring v5.3.13
+{yyyy-MM-dd HH:mm:ss} [main] INFO  com.Covid.CovidReportApplication -No active profile set, falling back to default profiles: default
+{yyyy-MM-dd HH:mm:ss} [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+{yyyy-MM-dd HH:mm:ss} [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interfaces.
+{yyyy-MM-dd HH:mm:ss} [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+{yyyy-MM-dd HH:mm:ss} [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+{yyyy-MM-dd HH:mm:ss} [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.55]
+{yyyy-MM-dd HH:mm:ss} [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+{yyyy-MM-dd HH:mm:ss} [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1399 ms
+{yyyy-MM-dd HH:mm:ss} [main] INFO  o.h.jpa.internal.util.LogHelper -HHH000204: Processing PersistenceUnitInfo [name: default]
+{yyyy-MM-dd HH:mm:ss} [main] INFO  org.hibernate.Version -HHH000412: Hibernate ORM core version 5.6.1.Final
+{yyyy-MM-dd HH:mm:ss} [main] INFO  o.h.annotations.common.Version -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+{yyyy-MM-dd HH:mm:ss} [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+{yyyy-MM-dd HH:mm:ss} [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+{yyyy-MM-dd HH:mm:ss} [main] INFO  org.hibernate.dialect.Dialect -HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+{yyyy-MM-dd HH:mm:ss} [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+{yyyy-MM-dd HH:mm:ss} [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Initialized JPA EntityManagerFactory for persistence unit 'default'
+{yyyy-MM-dd HH:mm:ss} [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+{yyyy-MM-dd HH:mm:ss} [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path ''
+{yyyy-MM-dd HH:mm:ss} [main] INFO  com.Covid.CovidReportApplication -Started CovidReportApplication in 4.122 seconds (JVM running for 4.822)
+{yyyy-MM-dd HH:mm:ss} [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -Application shutdown requested.
+{yyyy-MM-dd HH:mm:ss} [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Closing JPA EntityManagerFactory for persistence unit 'default'
+{yyyy-MM-dd HH:mm:ss} [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+{yyyy-MM-dd HH:mm:ss} [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+"{yyyy-MM-dd HH:mm:ss} [main] INFO  com.Covid.CovidReportApplication -Starting CovidReportApplication using Java 17 on ISHAIK-L-2438 with PID 1552 (C:\Users\ishaik\Downloads\workspace\CovidReport\target\classes started by ishaik in C:\Users\ishaik\Downloads\workspace\CovidReport)
+""{yyyy-MM-dd HH:mm:ss} [main] DEBUG com.Covid.CovidReportApplication -Running with Spring Boot v2.6.1, Spring v5.3.13
+""{yyyy-MM-dd HH:mm:ss} [main] INFO  com.Covid.CovidReportApplication -No active profile set, falling back to default profiles: default
+""{yyyy-MM-dd HH:mm:ss} [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""{yyyy-MM-dd HH:mm:ss} [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Finished Spring Data repository scanning in 81 ms. Found 1 JPA repository interfaces.
+""{yyyy-MM-dd HH:mm:ss} [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+""{yyyy-MM-dd HH:mm:ss} [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+""{yyyy-MM-dd HH:mm:ss} [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.55]
+""{yyyy-MM-dd HH:mm:ss} [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+""{yyyy-MM-dd HH:mm:ss} [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1367 ms
+""{yyyy-MM-dd HH:mm:ss} [main] INFO  o.h.jpa.internal.util.LogHelper -HHH000204: Processing PersistenceUnitInfo [name: default]
+""{yyyy-MM-dd HH:mm:ss} [main] INFO  org.hibernate.Version -HHH000412: Hibernate ORM core version 5.6.1.Final
+""{yyyy-MM-dd HH:mm:ss} [main] INFO  o.h.annotations.common.Version -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""{yyyy-MM-dd HH:mm:ss} [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+""{yyyy-MM-dd HH:mm:ss} [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+""{yyyy-MM-dd HH:mm:ss} [main] INFO  org.hibernate.dialect.Dialect -HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+""{yyyy-MM-dd HH:mm:ss} [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""{yyyy-MM-dd HH:mm:ss} [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Initialized JPA EntityManagerFactory for persistence unit 'default'
+""{yyyy-MM-dd HH:mm:ss} [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""{yyyy-MM-dd HH:mm:ss} [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path ''
+""{yyyy-MM-dd HH:mm:ss} [main] INFO  com.Covid.CovidReportApplication -Started CovidReportApplication in 7.407 seconds (JVM running for 8.249)
+""{yyyy-MM-dd HH:mm:ss} [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -Application shutdown requested.
+""{yyyy-MM-dd HH:mm:ss} [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Closing JPA EntityManagerFactory for persistence unit 'default'
+""{yyyy-MM-dd HH:mm:ss} [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+""{yyyy-MM-dd HH:mm:ss} [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+""2021-12-09 17:25:34,2602021-12-09 17:25:34 [main] INFO  com.Covid.CovidReportApplication -Starting CovidReportApplication using Java 17 on ISHAIK-L-2438 with PID 18772 (C:\Users\ishaik\Downloads\workspace\CovidReport\target\classes started by ishaik in C:\Users\ishaik\Downloads\workspace\CovidReport)
+""2021-12-09 17:25:34,2622021-12-09 17:25:34 [main] DEBUG com.Covid.CovidReportApplication -Running with Spring Boot v2.6.1, Spring v5.3.13
+""2021-12-09 17:25:34,2632021-12-09 17:25:34 [main] INFO  com.Covid.CovidReportApplication -No active profile set, falling back to default profiles: default
+""2021-12-09 17:25:34,8632021-12-09 17:25:34 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2021-12-09 17:25:34,9202021-12-09 17:25:34 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interfaces.
+""2021-12-09 17:25:35,3482021-12-09 17:25:35 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+""2021-12-09 17:25:35,3572021-12-09 17:25:35 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+""2021-12-09 17:25:35,3582021-12-09 17:25:35 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.55]
+""2021-12-09 17:25:35,4472021-12-09 17:25:35 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+""2021-12-09 17:25:35,4472021-12-09 17:25:35 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1125 ms
+""2021-12-09 17:25:35,6052021-12-09 17:25:35 [main] INFO  o.h.jpa.internal.util.LogHelper -HHH000204: Processing PersistenceUnitInfo [name: default]
+""2021-12-09 17:25:35,6452021-12-09 17:25:35 [main] INFO  org.hibernate.Version -HHH000412: Hibernate ORM core version 5.6.1.Final
+""2021-12-09 17:25:35,7862021-12-09 17:25:35 [main] INFO  o.h.annotations.common.Version -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2021-12-09 17:25:35,8782021-12-09 17:25:35 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+""2021-12-09 17:25:36,1642021-12-09 17:25:36 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+""2021-12-09 17:25:36,1802021-12-09 17:25:36 [main] INFO  org.hibernate.dialect.Dialect -HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+""2021-12-09 17:25:36,7872021-12-09 17:25:36 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2021-12-09 17:25:36,7942021-12-09 17:25:36 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2021-12-09 17:25:37,0552021-12-09 17:25:37 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2021-12-09 17:25:37,5262021-12-09 17:25:37 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path ''
+""2021-12-09 17:25:37,5382021-12-09 17:25:37 [main] INFO  com.Covid.CovidReportApplication -Started CovidReportApplication in 3.639 seconds (JVM running for 4.375)
+""2021-12-09 17:26:36,0842021-12-09 17:26:36 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -Application shutdown requested.
+""2021-12-09 17:26:36,1082021-12-09 17:26:36 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Closing JPA EntityManagerFactory for persistence unit 'default'
+""2021-12-09 17:26:36,1092021-12-09 17:26:36 [RMI TCP Connection(3)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+""2021-12-09 17:26:36,1152021-12-09 17:26:36 [RMI TCP Connection(3)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+""2021-12-09 17:26:38,9722021-12-09 17:26:38,972"{yyyy-MM-dd HH:mm:ss}" [main] INFO  com.Covid.CovidReportApplication -Starting CovidReportApplication using Java 17 on ISHAIK-L-2438 with PID 20352 (C:\Users\ishaik\Downloads\workspace\CovidReport\target\classes started by ishaik in C:\Users\ishaik\Downloads\workspace\CovidReport)
+""2021-12-09 17:26:38,9752021-12-09 17:26:38,975"{yyyy-MM-dd HH:mm:ss}" [main] DEBUG com.Covid.CovidReportApplication -Running with Spring Boot v2.6.1, Spring v5.3.13
+""2021-12-09 17:26:38,9752021-12-09 17:26:38,975"{yyyy-MM-dd HH:mm:ss}" [main] INFO  com.Covid.CovidReportApplication -No active profile set, falling back to default profiles: default
+""2021-12-09 17:26:39,6392021-12-09 17:26:39,639"{yyyy-MM-dd HH:mm:ss}" [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2021-12-09 17:26:39,6862021-12-09 17:26:39,686"{yyyy-MM-dd HH:mm:ss}" [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interfaces.
+""2021-12-09 17:26:40,1772021-12-09 17:26:40,177"{yyyy-MM-dd HH:mm:ss}" [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+""2021-12-09 17:26:40,1872021-12-09 17:26:40,187"{yyyy-MM-dd HH:mm:ss}" [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+""2021-12-09 17:26:40,1882021-12-09 17:26:40,188"{yyyy-MM-dd HH:mm:ss}" [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.55]
+""2021-12-09 17:26:40,3252021-12-09 17:26:40,325"{yyyy-MM-dd HH:mm:ss}" [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+""2021-12-09 17:26:40,3262021-12-09 17:26:40,326"{yyyy-MM-dd HH:mm:ss}" [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1285 ms
+""2021-12-09 17:26:40,5232021-12-09 17:26:40,523"{yyyy-MM-dd HH:mm:ss}" [main] INFO  o.h.jpa.internal.util.LogHelper -HHH000204: Processing PersistenceUnitInfo [name: default]
+""2021-12-09 17:26:40,5762021-12-09 17:26:40,576"{yyyy-MM-dd HH:mm:ss}" [main] INFO  org.hibernate.Version -HHH000412: Hibernate ORM core version 5.6.1.Final
+""2021-12-09 17:26:40,7282021-12-09 17:26:40,728"{yyyy-MM-dd HH:mm:ss}" [main] INFO  o.h.annotations.common.Version -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2021-12-09 17:26:40,8182021-12-09 17:26:40,818"{yyyy-MM-dd HH:mm:ss}" [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+""2021-12-09 17:26:41,2292021-12-09 17:26:41,229"{yyyy-MM-dd HH:mm:ss}" [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+""2021-12-09 17:26:41,2432021-12-09 17:26:41,243"{yyyy-MM-dd HH:mm:ss}" [main] INFO  org.hibernate.dialect.Dialect -HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+""2021-12-09 17:26:41,8012021-12-09 17:26:41,801"{yyyy-MM-dd HH:mm:ss}" [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2021-12-09 17:26:41,8092021-12-09 17:26:41,809"{yyyy-MM-dd HH:mm:ss}" [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2021-12-09 17:26:42,0922021-12-09 17:26:42,092"{yyyy-MM-dd HH:mm:ss}" [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2021-12-09 17:26:42,4582021-12-09 17:26:42,458"{yyyy-MM-dd HH:mm:ss}" [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path ''
+""2021-12-09 17:26:42,4672021-12-09 17:26:42,467"{yyyy-MM-dd HH:mm:ss}" [main] INFO  com.Covid.CovidReportApplication -Started CovidReportApplication in 3.973 seconds (JVM running for 4.721)
+""2021-12-09 17:27:12,8212021-12-09 17:27:12,821"{yyyy-MM-dd HH:mm:ss}" [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -Application shutdown requested.
+""2021-12-09 17:27:12,8582021-12-09 17:27:12,858"{yyyy-MM-dd HH:mm:ss}" [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Closing JPA EntityManagerFactory for persistence unit 'default'
+""2021-12-09 17:27:12,8612021-12-09 17:27:12,861"{yyyy-MM-dd HH:mm:ss}" [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+""2021-12-09 17:27:12,8682021-12-09 17:27:12,868"{yyyy-MM-dd HH:mm:ss}" [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+""{yyyy-MM-dd HH:mm:ss} [main] INFO  com.Covid.CovidReportApplication -Starting CovidReportApplication using Java 17 on ISHAIK-L-2438 with PID 16300 (C:\Users\ishaik\Downloads\workspace\CovidReport\target\classes started by ishaik in C:\Users\ishaik\Downloads\workspace\CovidReport)
+""{yyyy-MM-dd HH:mm:ss} [main] DEBUG com.Covid.CovidReportApplication -Running with Spring Boot v2.6.1, Spring v5.3.13
+""{yyyy-MM-dd HH:mm:ss} [main] INFO  com.Covid.CovidReportApplication -No active profile set, falling back to default profiles: default
+""{yyyy-MM-dd HH:mm:ss} [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""{yyyy-MM-dd HH:mm:ss} [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.
+""{yyyy-MM-dd HH:mm:ss} [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+""{yyyy-MM-dd HH:mm:ss} [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+""{yyyy-MM-dd HH:mm:ss} [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.55]
+""{yyyy-MM-dd HH:mm:ss} [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+""{yyyy-MM-dd HH:mm:ss} [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1452 ms
+""{yyyy-MM-dd HH:mm:ss} [main] INFO  o.h.jpa.internal.util.LogHelper -HHH000204: Processing PersistenceUnitInfo [name: default]
+""{yyyy-MM-dd HH:mm:ss} [main] INFO  org.hibernate.Version -HHH000412: Hibernate ORM core version 5.6.1.Final
+""{yyyy-MM-dd HH:mm:ss} [main] INFO  o.h.annotations.common.Version -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""{yyyy-MM-dd HH:mm:ss} [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+""{yyyy-MM-dd HH:mm:ss} [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+""{yyyy-MM-dd HH:mm:ss} [main] INFO  org.hibernate.dialect.Dialect -HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+""{yyyy-MM-dd HH:mm:ss} [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""{yyyy-MM-dd HH:mm:ss} [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Initialized JPA EntityManagerFactory for persistence unit 'default'
+""{yyyy-MM-dd HH:mm:ss} [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""{yyyy-MM-dd HH:mm:ss} [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path ''
+""{yyyy-MM-dd HH:mm:ss} [main] INFO  com.Covid.CovidReportApplication -Started CovidReportApplication in 4.106 seconds (JVM running for 5.162)
+""{yyyy-MM-dd HH:mm:ss} [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -Application shutdown requested.
+""{yyyy-MM-dd HH:mm:ss} [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Closing JPA EntityManagerFactory for persistence unit 'default'
+""{yyyy-MM-dd HH:mm:ss} [RMI TCP Connection(5)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+""{yyyy-MM-dd HH:mm:ss} [RMI TCP Connection(5)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+""2021-12-09 17:28:35 [main] INFO  com.Covid.CovidReportApplication -Starting CovidReportApplication using Java 17 on ISHAIK-L-2438 with PID 8256 (C:\Users\ishaik\Downloads\workspace\CovidReport\target\classes started by ishaik in C:\Users\ishaik\Downloads\workspace\CovidReport)
+""2021-12-09 17:28:35 [main] DEBUG com.Covid.CovidReportApplication -Running with Spring Boot v2.6.1, Spring v5.3.13
+""2021-12-09 17:28:35 [main] INFO  com.Covid.CovidReportApplication -No active profile set, falling back to default profiles: default
+""2021-12-09 17:28:36 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2021-12-09 17:28:36 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interfaces.
+""2021-12-09 17:28:36 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+""2021-12-09 17:28:36 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+""2021-12-09 17:28:36 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.55]
+""2021-12-09 17:28:36 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+""2021-12-09 17:28:36 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1414 ms
+""2021-12-09 17:28:37 [main] INFO  o.h.jpa.internal.util.LogHelper -HHH000204: Processing PersistenceUnitInfo [name: default]
+""2021-12-09 17:28:37 [main] INFO  org.hibernate.Version -HHH000412: Hibernate ORM core version 5.6.1.Final
+""2021-12-09 17:28:37 [main] INFO  o.h.annotations.common.Version -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2021-12-09 17:28:37 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+""2021-12-09 17:28:38 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+""2021-12-09 17:28:38 [main] INFO  org.hibernate.dialect.Dialect -HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+""2021-12-09 17:28:39 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2021-12-09 17:28:39 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2021-12-09 17:28:40 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2021-12-09 17:28:41 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path ''
+""2021-12-09 17:28:41 [main] INFO  com.Covid.CovidReportApplication -Started CovidReportApplication in 6.55 seconds (JVM running for 7.545)
+""2021-12-09 17:40:54 [RMI TCP Connection(16)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -Application shutdown requested.
+""2021-12-09 17:40:54 [RMI TCP Connection(16)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Closing JPA EntityManagerFactory for persistence unit 'default'
+""2021-12-09 17:40:54 [RMI TCP Connection(16)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+""2021-12-09 17:40:54 [RMI TCP Connection(16)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+""2021-12-09 17:57:39 [main] INFO  com.Covid.CovidReportApplication -Starting CovidReportApplication using Java 17 on ISHAIK-L-2438 with PID 14560 (C:\Users\ishaik\Downloads\workspace\CovidReport\target\classes started by ishaik in C:\Users\ishaik\Downloads\workspace\CovidReport)
+""2021-12-09 17:57:39 [main] DEBUG com.Covid.CovidReportApplication -Running with Spring Boot v2.6.1, Spring v5.3.13
+""2021-12-09 17:57:39 [main] INFO  com.Covid.CovidReportApplication -No active profile set, falling back to default profiles: default
+""2021-12-09 17:57:40 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2021-12-09 17:57:40 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Finished Spring Data repository scanning in 68 ms. Found 1 JPA repository interfaces.
+""2021-12-09 17:57:40 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+""2021-12-09 17:57:40 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+""2021-12-09 17:57:40 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.55]
+""2021-12-09 17:57:40 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+""2021-12-09 17:57:40 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1419 ms
+""2021-12-09 17:57:41 [main] INFO  o.h.jpa.internal.util.LogHelper -HHH000204: Processing PersistenceUnitInfo [name: default]
+""2021-12-09 17:57:41 [main] INFO  org.hibernate.Version -HHH000412: Hibernate ORM core version 5.6.1.Final
+""2021-12-09 17:57:41 [main] INFO  o.h.annotations.common.Version -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2021-12-09 17:57:41 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+""2021-12-09 17:57:41 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+""2021-12-09 17:57:41 [main] INFO  org.hibernate.dialect.Dialect -HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+""2021-12-09 17:57:42 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2021-12-09 17:57:42 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2021-12-09 17:57:42 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2021-12-09 17:57:42 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path ''
+""2021-12-09 17:57:42 [main] INFO  com.Covid.CovidReportApplication -Started CovidReportApplication in 3.852 seconds (JVM running for 4.578)
+""2021-12-09 17:59:45 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2021-12-09 17:59:45 [http-nio-8080-exec-1] DEBUG com.Covid.CovidReportApplication -Request by id14
+""2021-12-09 17:59:45 [http-nio-8080-exec-1] DEBUG com.Covid.CovidReportApplication -Response 
+""2021-12-09 18:05:59 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool -HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47s198ms211µs400ns).
+""2021-12-09 18:09:31 [RMI TCP Connection(16)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -Application shutdown requested.
+""2021-12-09 18:09:31 [RMI TCP Connection(16)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Closing JPA EntityManagerFactory for persistence unit 'default'
+""2021-12-09 18:09:31 [RMI TCP Connection(16)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+""2021-12-09 18:09:31 [RMI TCP Connection(16)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+""2021-12-09 18:09:34 [main] INFO  com.Covid.CovidReportApplication -Starting CovidReportApplication using Java 17 on ISHAIK-L-2438 with PID 14656 (C:\Users\ishaik\Downloads\workspace\CovidReport\target\classes started by ishaik in C:\Users\ishaik\Downloads\workspace\CovidReport)
+""2021-12-09 18:09:34 [main] DEBUG com.Covid.CovidReportApplication -Running with Spring Boot v2.6.1, Spring v5.3.13
+""2021-12-09 18:09:34 [main] INFO  com.Covid.CovidReportApplication -No active profile set, falling back to default profiles: default
+""2021-12-09 18:09:34 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2021-12-09 18:09:34 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interfaces.
+""2021-12-09 18:09:35 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8080 (http)
+""2021-12-09 18:09:35 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+""2021-12-09 18:09:35 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.55]
+""2021-12-09 18:09:35 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+""2021-12-09 18:09:35 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1246 ms
+""2021-12-09 18:09:35 [main] INFO  o.h.jpa.internal.util.LogHelper -HHH000204: Processing PersistenceUnitInfo [name: default]
+""2021-12-09 18:09:35 [main] INFO  org.hibernate.Version -HHH000412: Hibernate ORM core version 5.6.1.Final
+""2021-12-09 18:09:35 [main] INFO  o.h.annotations.common.Version -HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2021-12-09 18:09:36 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Starting...
+""2021-12-09 18:09:36 [main] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Start completed.
+""2021-12-09 18:09:36 [main] INFO  org.hibernate.dialect.Dialect -HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+""2021-12-09 18:09:36 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2021-12-09 18:09:36 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2021-12-09 18:09:37 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2021-12-09 18:09:37 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port(s): 8080 (http) with context path ''
+""2021-12-09 18:09:37 [main] INFO  com.Covid.CovidReportApplication -Started CovidReportApplication in 3.793 seconds (JVM running for 4.533)
+""2021-12-09 18:10:02 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2021-12-09 18:10:02 [http-nio-8080-exec-1] DEBUG com.Covid.CovidReportApplication -Request by id14
+""2021-12-09 18:10:02 [http-nio-8080-exec-1] DEBUG com.Covid.CovidReportApplication -Response 
+""2021-12-09 18:10:03 [http-nio-8080-exec-2] DEBUG com.Covid.CovidReportApplication -Request by id14
+""2021-12-09 18:10:03 [http-nio-8080-exec-2] DEBUG com.Covid.CovidReportApplication -Response 
+""2021-12-09 18:10:03 [http-nio-8080-exec-3] DEBUG com.Covid.CovidReportApplication -Request by id14
+""2021-12-09 18:10:03 [http-nio-8080-exec-3] DEBUG com.Covid.CovidReportApplication -Response 
+""2021-12-09 18:10:03 [http-nio-8080-exec-4] DEBUG com.Covid.CovidReportApplication -Request by id14
+""2021-12-09 18:10:03 [http-nio-8080-exec-4] DEBUG com.Covid.CovidReportApplication -Response 
+""2021-12-09 18:11:51 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin -Application shutdown requested.
+""2021-12-09 18:11:51 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Closing JPA EntityManagerFactory for persistence unit 'default'
+""2021-12-09 18:11:51 [RMI TCP Connection(6)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown initiated...
+""2021-12-09 18:11:51 [RMI TCP Connection(6)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource -HikariPool-1 - Shutdown completed.
+"
